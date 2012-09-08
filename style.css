@@ -1,0 +1,330 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'OtamaepRegular';
+    src: url('fonts/Otama-ep-webfont.eot');
+    src: url('fonts/Otama-ep-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Otama-ep-webfont.woff') format('woff'),
+         url('fonts/Otama-ep-webfont.ttf') format('truetype'),
+         url('fonts/Otama-ep-webfont.svg#OtamaepRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Edmond';
+    src: url('fonts/Edmondsans-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Edmond-Medium';
+    src: url('fonts/Edmondsans-Medium.otf');
+    font-weight: medium;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'Evilz';
+    src: url('fonts/Evilz.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#gallery {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:-5;
+	border-bottom-style:solid;
+	border-color:#55C2B4;
+	border-width:5px;
+}
+
+#logo {
+	position:relative;
+	width:100%;
+}
+#shows {
+	width:85%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-2px;
+}
+#main-nav {
+	background-color:#DE1F26;
+	text-align:center;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+#main-nav a {
+	font-family:Edmond;
+	font-size:1.5em;
+	text-transform:uppercase;
+	color:#ffffff;
+	text-decoration:none;
+	padding-left:1em;
+	padding-right:1em;
+	margin-left:.5em;
+	margin-right:.5em;
+	line-height:2em;
+}
+#shows-section {
+	font-family:Edmond;
+	font-size:1.25em;
+	position:relative;
+	width:33em;
+	margin-left:auto;
+	margin-right:auto;
+}
+#col1 {
+	float:left;
+	margin-right:13%;
+}
+#col2 {
+	float:left;
+	margin-right:13%;
+}
+#tri-shift {
+	margin-left:-3.25em;
+}
+#tri-wrapper {
+	width:1500px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	height:125px;
+	display:block;
+}
+#tri-row {
+	margin-top:3em;
+}
+#tri-row img {
+	margin-right:-2.75em;
+}
+#hidden p {
+	font-family:Evilz;
+	font-size:2.5em;
+	z-index:-500;
+	position:relative;
+	top:3em;
+	left:14.5em;
+}
+#music-section {
+	font-family:Edmond;
+	font-size:1.25em;
+	position:relative;
+	width:24em;
+	margin-left:auto;
+	margin-right:auto;
+}
+#music-col1 {
+	float:left;
+	margin-right:5%;
+}
+#music-col1 li {
+	margin-bottom:.5em;
+	text-align:right;
+}
+#us {
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index:-3;
+	height:100%;
+	margin-top:-4em;
+	margin-bottom:-6em;
+}
+#about-section {
+	font-family:Edmond;
+	font-size:1.25em;
+	position:relative;
+	width:85%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#contact-section {
+	font-family:Edmond;
+	font-size:1.25em;
+	position:relative;
+	width:85%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#contact-wrapper {
+	width:50em;
+	margin-left:auto;
+	margin-right:auto;
+}
+#contact-form {
+	padding-top:1.5em;
+	color:black;
+}	
+#form fieldset{
+	margin:0;
+	padding:0;
+	border:none;	
+	padding-bottom:1em;
+}		
+#form p{
+	margin:.5em 2em;
+}	
+#form input, #form textarea{		
+	width:500px;
+	border:0px;
+	background:#ACEEE5 url(../images/form2/form_input.gif) repeat-x;
+	padding:5px 3px;
+	color:#DE1F26;
+	font-family:Arial, sans-serif;
+}		
+#form textarea{
+	height:150px;
+	overflow:auto;
+	resize: none;
+	background-color:#ACEEE5;
+	border:0px;
+	width:500px;
+}					
+#form p.submit{
+	text-align:center;
+}	
+#form button{
+	padding:.5em 2em;
+	background-color:#55C2B4; 
+	font-family:OtamaepRegular;
+	color:#fff;
+	cursor:pointer;		
+	text-align:center;	
+	border:0px solid;
+	border-radius:25px;
+	border-color:#282828;
+	font-size:1em;
+}	
+#form label {
+	font-size:1.25em; 	
+	font-family:Edmond-Medium;
+	margin-bottom:2px;
+	display:block;
+	text-align:right;
+	width:100px;
+	float:left;
+	margin-right:1em;
+}
+
+footer {
+	background-color:#DE1F26;
+	padding-top:1.5em;
+	padding-bottom:1.5em;
+	position:relative;
+	margin-bottom:3em;
+	margin-top:3em;
+}
+footer p {
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.75em;
+	color:#ffffff;
+}
+footer img {
+	position:relative;
+}
+#facebook {
+	float:left;
+	margin-right:1.5em;
+	margin-top:.25em;
+}
+#twitter {
+	margin-left:1.5em;
+	margin-top:.25em;
+}
+#copyright {
+	float:left;
+}
+#footer-wrapper {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.highlight {
+	font-family:Edmond-Medium;
+}
+h1 {
+	font-family:OtamaepRegular;
+	font-size:5.5em;
+	text-align:center;
+}
+
+::selection {
+	background: #aceee5; /* Safari */
+	}
+::-moz-selection {
+	background: #aceee5; /* Firefox */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
