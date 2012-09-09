@@ -2,347 +2,161 @@
 <html>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Color Me Once</title>
-	<meta name="Description" content="">
-	<meta name="Keywords" content="">
-	<meta name="robots" content="all">
-	<meta name="copyright" content="">
-    <link href="style.css" rel="stylesheet" type="text/css">
-	<!--[if IE]>
-    <link rel="stylesheet" type="text/css" href="all-ie-only.css" />
-	<![endif]-->
-
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
+  <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
+  <title>Color Me Once</title>
+  <meta name='robots' content='all'>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <!--[if IE]>
+    <link rel='stylesheet' type='text/css' href='all-ie-only.css' />
+  <![endif]-->
+  <script src='http://code.jquery.com/jquery-latest.js'></script>
 </head>
 
 <body>
-	<img id="gallery" src="images/color-me-once3.jpg" alt="Color Me Once">
-	<img id="logo" src="images/logo.png" alt="Color Me Once">
-	<div id="shows">
-	<nav id="main-nav">
-		<a href="#shows" class="scroll">shows</a>
-		<a href="#music" class="scroll">music</a>
-		<a href="#about" class="scroll">about</a>
-		<a href="#contact" class="scroll">contact</a>
-	</nav>
-	</div>
-	
-<script>
-jQuery(document).ready(function($) {
- 
-	$(".scroll").click(function(event){		
-		event.preventDefault();
-		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-	});
-});
-</script>	
-		
-	<h1>upcoming shows</h1>
-	<div id="shows-section">
-	<div id="col1">
-		<ul>
-			<li>Friday, May 25</li>
-			<li>Wednesday, May 30</li>
-			<li>Friday, June 22</li>
-		</ul>
-	</div>
-	<div id="col2">
-		<ul>
-			<li>Madison, WI</li>
-			<li>Chicago, IL</li>
-			<li>Chicago, IL</li>
-		</ul>
-	</div>
-	<div id="col3">
-		<ul>
-			<li>Redamte Coffee House</li>
-			<li>Subterranean</li>
-			<li>The Elbo Room</li>
-		</ul>
-	</div>
-	</div>
-	
-	<div id="tri-shift">
-	<div id="tri-wrapper">
-	<div id="tri-row">
-		<img id="tri1" src="images/tri.png" alt="Color Me Once">
-		<img id="tri2" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri3" src="images/tri.png" alt="Color Me Once">
-		<img id="tri4" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri5" src="images/tri.png" alt="Color Me Once">
-		<img id="tri6" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri7" src="images/tri.png" alt="Color Me Once">
-		<img id="tri8" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri9" src="images/tri.png" alt="Color Me Once">
-		<img id="tri10" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri11" src="images/tri.png" alt="Color Me Once">
-		<img id="tri12" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri13" src="images/tri.png" alt="Color Me Once">
-		<img id="tri14" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri15" src="images/tri.png" alt="Color Me Once">
-		<img id="tri16" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri17" src="images/tri.png" alt="Color Me Once">
-		<img id="tri18" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri19" src="images/tri.png" alt="Color Me Once">
-		<img id="tri20" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri21" src="images/tri.png" alt="Color Me Once">
-		<img id="tri22" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri23" src="images/tri.png" alt="Color Me Once">
-		<img id="tri24" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri25" src="images/tri.png" alt="Color Me Once">
-		<img id="tri26" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri27" src="images/tri.png" alt="Color Me Once">
-		<img id="tri28" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri29" src="images/tri.png" alt="Color Me Once">
-	</div>
+  <div class='everythang'>
+    <header>
+      <div id='cover'>
+        <img id='bg' src='images/main.jpg' alt='Color Me Once'>
+      </div>
+      <h1 id='logo'>Color Me Once</h1>
+    </header>
+  
+    <div id='main-nav'>
+      <div class='wrap'>
+        <a href='#shows' class='scroll'>shows</a>
+        <a href='#music' class='scroll'>music</a>
+        <a href='#about' class='scroll'>about</a>
+        <a href='#contact' class='scroll'>contact</a>
+      </div>
+    </div>
+  
+  <script>
+  jQuery(document).ready(function($) {
+    $('.scroll').click(function(event){    
+      event.preventDefault();
+      $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+    });
+  });
+  </script>
+  
+  <div class='clear'>
+  </div>
+  
+    <h1 id='shows'>upcoming shows</h1>
+    <div id='shows-section'>
+      <div id='col1'>
+        <ul>
+          <li>Friday, May 25</li>
+          <li>Wednesday, May 30</li>
+          <li>Friday, June 22</li>
+        </ul>
+      </div>
+      <div id='col2'>
+        <ul>
+          <li>Madison, WI</li>
+          <li>Chicago, IL</li>
+          <li>Chicago, IL</li>
+        </ul>
+      </div>
+      <div id='col3'>
+        <ul>
+          <li>Redamte Coffee House</li>
+          <li>Subterranean</li>
+          <li>The Elbo Room</li>
+        </ul>
+      </div>
+    </div>
+  
+  <div class='clear'>
+  </div>
+  
+  
+  
+  
+  
+  
+    
+    <h1 id='music'>featured music</h1>
+    <div id='music-section'>
+      <div id='music-col1'>
+        <ul>
+          <li>Rollercoaster</li>
+          <li>Juliet</li>
+          <li>Sol</li>
+        </ul>
+      </div>
+      <div id='music-col2'>
+        <ul>
+          <li>
+            <audio controls='controls'>
+              <source src="rollercoaster.ogg" type="audio/ogg" />
+              <source src="rollercoaster.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.</audio></li>
+          <li>
+            <audio controls='controls'>
+              <source src="kryptonite.ogg" type="audio/ogg" />
+                <source src="kryptonite.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.</audio></li>
+          <li>
+            <audio controls='controls'>
+              <source src="sol.ogg" type="audio/ogg" />
+                <source src="sol.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.</audio></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id='us-wrapper'>
+    <img id='us' src='images/us.png' alt='Kelsey and Johnice'>
+    </div>
+  
+    <h1 id='about'>about us</h1>
+      <div id='about-section' class='wrap'>
+        <p><span class='bold'>Color Me Once</span> is an acoustic / soul trio based out of Madison, WI. Their unique and heartwarming sound both silences and illuminates bars. From their melodic guitar parts to their soulful lyrics, Kelsey Nelson, Johnice Miller and Jenna Joanis complement each other almost perfectly.</p>
+        <br/>
+        <p>Johnice and Kelsey released their first album, Memoirs EP, in March 2012 are eager and ready to make a career our of what they love. <span class='bold'>Color Me Once</span> is a young band that has great potential and the sky is the limit!</p>
+      </div>
+  
+      <div class='clear'>
+      </div>
+  
+    <h1 id="contact">contact us</h1>
+      <div id="contact-section" class='wrap'>
+        <p>We would love to hear from you! Email us at <span><a href="mailto:colormeonceband@gmail.com?Subject=Color%20Me%20Once">colormeonceband&#064;gmail.com</a></span> to leave us a message. For booking inquiries, please include your name and phone number.</p>
+      </div>
 
-	<script>
-		$('#tri1').hover(function() {
-		$('#tri1').fadeTo('500', 0.0, function() {});	});
-		$('#tri2').hover(function() {
-		$('#tri2').fadeTo('500', 0.0, function() {});	});
-		$('#tri3').hover(function() {
-		$('#tri3').fadeTo('500', 0.0, function() {});	});
-		$('#tri4').hover(function() {
-		$('#tri4').fadeTo('500', 0.0, function() {});	});
-		$('#tri5').hover(function() {
-		$('#tri5').fadeTo('500', 0.0, function() {});	});
-		$('#tri6').hover(function() {
-		$('#tri6').fadeTo('500', 0.0, function() {});	});
-		$('#tri7').hover(function() {
-		$('#tri7').fadeTo('500', 0.0, function() {});	});
-		$('#tri8').hover(function() {
-		$('#tri8').fadeTo('500', 0.0, function() {});	});
-		$('#tri9').hover(function() {
-		$('#tri9').fadeTo('500', 0.0, function() {});	});
-		$('#tri10').hover(function() {
-		$('#tri10').fadeTo('500', 0.0, function() {});	});
-		$('#tri11').hover(function() {
-		$('#tri11').fadeTo('500', 0.0, function() {});	});
-		$('#tri12').hover(function() {
-		$('#tri12').fadeTo('500', 0.0, function() {});	});
-		$('#tri13').hover(function() {
-		$('#tri13').fadeTo('500', 0.0, function() {});	});
-		$('#tri14').hover(function() {
-		$('#tri14').fadeTo('500', 0.0, function() {});	});
-		$('#tri15').hover(function() {
-		$('#tri15').fadeTo('500', 0.0, function() {});	});
-		$('#tri16').hover(function() {
-		$('#tri16').fadeTo('500', 0.0, function() {});	});
-		$('#tri17').hover(function() {
-		$('#tri17').fadeTo('500', 0.0, function() {});	});
-		$('#tri18').hover(function() {
-		$('#tri18').fadeTo('500', 0.0, function() {});	});
-		$('#tri19').hover(function() {
-		$('#tri19').fadeTo('500', 0.0, function() {});	});
-		$('#tri20').hover(function() {
-		$('#tri20').fadeTo('500', 0.0, function() {});	});
-		$('#tri21').hover(function() {
-		$('#tri21').fadeTo('500', 0.0, function() {});	});
-		$('#tri22').hover(function() {
-		$('#tri22').fadeTo('500', 0.0, function() {});	});
-		$('#tri23').hover(function() {
-		$('#tri23').fadeTo('500', 0.0, function() {});	});
-		$('#tri24').hover(function() {
-		$('#tri24').fadeTo('500', 0.0, function() {});	});
-		$('#tri25').hover(function() {
-		$('#tri25').fadeTo('500', 0.0, function() {});	});
-		$('#tri26').hover(function() {
-		$('#tri26').fadeTo('500', 0.0, function() {});	});
-		$('#tri27').hover(function() {
-		$('#tri27').fadeTo('500', 0.0, function() {});	});
-		$('#tri28').hover(function() {
-		$('#tri28').fadeTo('500', 0.0, function() {});	});
-		$('#tri29').hover(function() {
-		$('#tri29').fadeTo('500', 0.0, function() {});	});
-	</script>
-	</div>
-	</div>
-	
-	<h1 id="music">featured music</h1>
-	<div id="music-section">
-		<div id="music-col1">
-			<ul>
-				<li>Rollercoaster</li>
-				<li>Juliet</li>
-				<li>Sol</li>
-			</ul>
-		</div>
-		<div id="music-col2">
-			<ul>
-				<li><audio controls="controls"></audio></li>
-				<li><audio controls="controls"></audio></li>
-				<li><audio controls="controls"></audio></li>
-			</ul>
-		</div>
-	</div>
-	
-	<div id="us-wrapper">
-	<img id="us" src="images/us.png" alt="Kelsey and Johnice">
-	</div>
-
-	<h1 id="about">about us</h1>
-	<div id="about-section">
-		<p><span class="highlight">Color Me Once</span> is an acoustic / soul duo based in Madison, WI. Their unique and heartwarming sound both silences and illuminates bars. From their melodic guitar parts to their soulful lyrics, Kelsey Nelson and Johnice Miller complement each other almost perfectly. Johnice and Kelsey released their first album, Memoirs EP, in March 2012 are eager and ready to make a career our of what they love. <span class="highlight">Color Me Once</span> is a young band that has great potential and the sky is the limit!</p>
-	</div>
-	
-	<div id="tri-shift">
-	<div id="tri-wrapper">
-	<div id="tri-row">
-		<img id="tri31" src="images/tri.png" alt="Color Me Once">
-		<img id="tri32" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri33" src="images/tri.png" alt="Color Me Once">
-		<img id="tri34" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri35" src="images/tri.png" alt="Color Me Once">
-		<img id="tri36" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri37" src="images/tri.png" alt="Color Me Once">
-		<img id="tri38" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri39" src="images/tri.png" alt="Color Me Once">
-		<img id="tri40" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri41" src="images/tri.png" alt="Color Me Once">
-		<img id="tri42" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri43" src="images/tri.png" alt="Color Me Once">
-		<img id="tri44" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri45" src="images/tri.png" alt="Color Me Once">
-		<img id="tri46" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri47" src="images/tri.png" alt="Color Me Once">
-		<img id="tri48" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri49" src="images/tri.png" alt="Color Me Once">
-		<img id="tri50" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri51" src="images/tri.png" alt="Color Me Once">
-		<img id="tri52" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri53" src="images/tri.png" alt="Color Me Once">
-		<img id="tri54" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri55" src="images/tri.png" alt="Color Me Once">
-		<img id="tri56" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri57" src="images/tri.png" alt="Color Me Once">
-		<img id="tri58" src="images/tri2.png" alt="Color Me Once">
-		<img id="tri59" src="images/tri.png" alt="Color Me Once">		
-	</div>
-	
-		<script>
-		$('#tri31').hover(function() {
-		$('#tri31').fadeTo('500', 0.0, function() {});	});
-		$('#tri32').hover(function() {
-		$('#tri32').fadeTo('500', 0.0, function() {});	});
-		$('#tri33').hover(function() {
-		$('#tri33').fadeTo('500', 0.0, function() {});	});
-		$('#tri34').hover(function() {
-		$('#tri34').fadeTo('500', 0.0, function() {});	});
-		$('#tri35').hover(function() {
-		$('#tri35').fadeTo('500', 0.0, function() {});	});
-		$('#tri36').hover(function() {
-		$('#tri36').fadeTo('500', 0.0, function() {});	});
-		$('#tri37').hover(function() {
-		$('#tri37').fadeTo('500', 0.0, function() {});	});
-		$('#tri38').hover(function() {
-		$('#tri38').fadeTo('500', 0.0, function() {});	});
-		$('#tri39').hover(function() {
-		$('#tri39').fadeTo('500', 0.0, function() {});	});
-		$('#tri40').hover(function() {
-		$('#tri40').fadeTo('500', 0.0, function() {});	});
-		$('#tri41').hover(function() {
-		$('#tri41').fadeTo('500', 0.0, function() {});	});
-		$('#tri42').hover(function() {
-		$('#tri42').fadeTo('500', 0.0, function() {});	});
-		$('#tri43').hover(function() {
-		$('#tri43').fadeTo('500', 0.0, function() {});	});
-		$('#tri44').hover(function() {
-		$('#tri44').fadeTo('500', 0.0, function() {});	});
-		$('#tri45').hover(function() {
-		$('#tri45').fadeTo('500', 0.0, function() {});	});
-		$('#tri46').hover(function() {
-		$('#tri46').fadeTo('500', 0.0, function() {});	});
-		$('#tri47').hover(function() {
-		$('#tri47').fadeTo('500', 0.0, function() {});	});
-		$('#tri48').hover(function() {
-		$('#tri48').fadeTo('500', 0.0, function() {});	});
-		$('#tri49').hover(function() {
-		$('#tri49').fadeTo('500', 0.0, function() {});	});
-		$('#tri50').hover(function() {
-		$('#tri50').fadeTo('500', 0.0, function() {});	});
-		$('#tri51').hover(function() {
-		$('#tri51').fadeTo('500', 0.0, function() {});	});
-		$('#tri52').hover(function() {
-		$('#tri52').fadeTo('500', 0.0, function() {});	});
-		$('#tr53').hover(function() {
-		$('#tri53').fadeTo('500', 0.0, function() {});	});
-		$('#tri54').hover(function() {
-		$('#tri54').fadeTo('500', 0.0, function() {});	});
-		$('#tri55').hover(function() {
-		$('#tri55').fadeTo('500', 0.0, function() {});	});
-		$('#tri56').hover(function() {
-		$('#tri56').fadeTo('500', 0.0, function() {});	});
-		$('#tri57').hover(function() {
-		$('#tri57').fadeTo('500', 0.0, function() {});	});
-		$('#tri58').hover(function() {
-		$('#tri58').fadeTo('500', 0.0, function() {});	});
-		$('#tri59').hover(function() {
-		$('#tri59').fadeTo('500', 0.0, function() {});	});
-	</script>
-		
-	</div>
-	</div>
-	
-	<h1 id="contact">contact us</h1>
-	<div id="contact-section">
-		<p>We would love to hear from you. Fill out the form below to book us or to tell us how awesome we are. See you at the next show. Peace.</p>
-	</div>
-	<div id="contact-wrapper">
-		<div id="contact-form">
-		<form id="form" action="send_email.php" method="post">	
-				
-			<fieldset>
-				<div id="contax">
-				<p class="first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</p>
-				<p>
-					<label for="email">Email</label>
-					<input type="text" name="email" id="email" />
-				</p>																				
-				<p>
-					<label for="message">Message</label>
-					<textarea name="message" id="message"></textarea>
-				</p>					
-				
-				<p class="submit"><button type="submit">Send</button></p>		
-				</div>			
-			</fieldset>					
-						
-		</form>	
-		</div>
-	</div>
-	
+  <footer>
+    <div id='footer-wrapper'>
+      <a href='http://www.facebook.com/ColorMeOnceBand' target='_blank'>
+        <p class='social' id='facebook'>f</p>
+      </a>
+      <div id='copyright'>
+        <p>Copyright &copy; 2012 Color Me Once. All Rights Reserved.</p>
+        <p>Music Management by Rae. Design by Amanda Cheung. Photography by R. M. Young.</p>
+      </div>
+      <a href='http://www.reverbnation.com/Colormeonce' target='_blank'>
+        <p class='social' id='reverb'>s</p>
+      </a>
+    </div>
+  
+    <script>
+      $('#facebook').fadeTo('fast', 0.5, function() {
+      $('#facebook').mouseover(function() {
+      $('#facebook').fadeTo('fast', 1.0, function() {
+      $('#facebook').mouseout(function() {
+      $('#facebook').fadeTo('fast', 0.5, function() {
+      });  }); }); }); });
+      $('#reverb').fadeTo('fast', 0.5, function() {
+      $('#reverb').mouseover(function() {
+      $('#reverb').fadeTo('fast', 1.0, function() {
+      $('#reverb').mouseout(function() {
+      $('#reverb').fadeTo('fast', 0.5, function() {
+      });  }); }); }); });
+    </script>
+    
+  </footer>
+    <div class='white'>
+    </div>
+  </div>
 </body>
-
-<footer>
-	<div id="footer-wrapper">
-	<img id="facebook" src="images/facebook.png" alt="Facebook">
-	<div id="copyright">
-	<p>&copy; 2012 Color Me Once. All Rights Reserved.</p>
-	<p>Music Management by Rae. Design by Amanda Cheung. Photography by R. M. Young.</p>
-	</div>
-	<img id="twitter" src="images/twitter.png" alt="Twitter">
-	</div>
-	
-	<script>
-		$('#facebook').fadeTo('fast', 0.5, function() {
-		$('#facebook').mouseover(function() {
-		$('#facebook').fadeTo('fast', 1.0, function() {
-		$('#facebook').mouseout(function() {
-		$('#facebook').fadeTo('fast', 0.5, function() {
-		});	}); }); }); });
-		$('#twitter').fadeTo('fast', 0.5, function() {
-		$('#twitter').mouseover(function() {
-		$('#twitter').fadeTo('fast', 1.0, function() {
-		$('#twitter').mouseout(function() {
-		$('#twitter').fadeTo('fast', 0.5, function() {
-		});	}); }); }); });
-	</script>
-	
-</footer>
-
 </html>
