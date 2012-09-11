@@ -198,6 +198,9 @@ footer p {
   font-size: 1em;
   color: #ffffff;
 }
+footer a {
+  color: #ffffff;
+}
 footer img {
   position: relative;
 }
@@ -213,6 +216,7 @@ footer img {
 #facebook {
   float: left;
   margin-right: 1.5em;
+  line-height: 41px;
 }
 #reverb {
   margin-left: 1.5em;
@@ -221,7 +225,7 @@ footer img {
 }
 #copyright {
   float: left;
-  margin-left: -.5em;
+  margin-left: -.75em;
 }
 #footer-wrapper {
   width: 740px;
