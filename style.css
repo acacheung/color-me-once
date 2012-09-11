@@ -114,7 +114,8 @@ body {
 }
 
 #bg {
-  height: 585px;
+  height: 495px;
+  width: 960px;
   border-bottom-style: solid;
   border-color: #27e4cc;
   border-width: 5px;
